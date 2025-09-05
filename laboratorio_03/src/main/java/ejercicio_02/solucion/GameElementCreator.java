@@ -1,13 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package ejercicio_02.problema;
+package ejercicio_02.solucion;
 
-/**
- *
- * @author jacks
- */
+
 public class GameElementCreator {
 
     public Character createCharacter(String platform, String type) {
@@ -16,7 +9,6 @@ public class GameElementCreator {
         if (type.equals("Warrior")) {
             character = new Warrior(platform);
         }
-        // Más tipos en el futuro...
 
         return character;
     }
@@ -27,7 +19,6 @@ public class GameElementCreator {
         if (type.equals("Sword")) {
             weapon = new Sword(platform);
         }
-        // Más tipos en el futuro...
 
         return weapon;
     }
