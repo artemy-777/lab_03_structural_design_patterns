@@ -1,9 +1,5 @@
 
-package ejercicio_01.problema;
-
-/**
- *
- * @author jacks
+package ejercicio_01.solucion;
 
 public class GameCreator {
 
@@ -14,6 +10,8 @@ public class GameCreator {
             game = new RPGGame();
         } else if (type.equals("FPS")) {
             game = new FPSGame();
+        } else if (type.equals("Puzzle")) {
+            game = new PuzzleGame();
         } else {
             throw new IllegalArgumentException("Tipo de juego no soportado: " + type);
         }
@@ -21,4 +19,3 @@ public class GameCreator {
         return game;
     }
 }
- */
