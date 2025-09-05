@@ -1,13 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package ejercicio_01.problema;
 
 /**
  *
  * @author jacks
- */
+
 public class GameCreator {
 
     public Game createGame(String type) {
@@ -24,3 +21,4 @@ public class GameCreator {
         return game;
     }
 }
+ */
